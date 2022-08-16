@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppSupermercado5.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#999966"
+         Padding="38" 
+         CornerRadius="0">
+            <Label Text="LISTA DE COMPRAS SUPERMERCADO"
+                   HorizontalTextAlignment="Center" 
+                   TextColor="#336600" 
+                   FontSize="26"
+                   FontAttributes="Bold"/>
+        </Frame>
+
+        <Label Text="Produto:" HorizontalTextAlignment="Center" TextColor="#003300" FontSize="16"/>
+        <Entry x:Name="Produto:"/>
+
+        <Label Text="Quantidade:" HorizontalTextAlignment="Center" TextColor="#003300" FontSize="16"/>
+        <Entry x:Name="Quantidade:"/>
+
+        <Label Text="Valor:" HorizontalTextAlignment="Center" TextColor="#003300" FontSize="16"/>
+        <Entry x:Name="Valor:"/>
+
+
+    </StackLayout>
+
+</ContentPage>
